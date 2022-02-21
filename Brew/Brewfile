@@ -1,0 +1,20 @@
+brew 'wget'
+brew 'node'
+brew 'git'
+brew 'python3'
+brew 'java11'
+
+tap 'homebrew/cask' || true
+cask_args appdir: '/Applications'
+
+cask 'iterm2'
+cask 'intellij-idea-ce'
+cask 'visual-studio-code'
+cask 'docker'
+cask 'spotify'
+cask 'signal'
+cask 'bitwarden'
+cask 'firefox'
+cask 'google-chrome'
+cask 'alfred'
+cask 'lulu'
